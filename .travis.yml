@@ -3,9 +3,3 @@ script: env
 after_success:
   - git tag v0.1.0
   - git tag -l
-env:
-  global:
-    - GIT_COMMITTER_NAME=bluepapa32
-    - GIT_COMMITTER_EMAIL=bluepapa32.test@gmail.com
-    - GIT_AUTHOR_NAME=bluepapa32
-    - GIT_AUTHOR_EMAIL=bluepapa32.test@gmail.com
