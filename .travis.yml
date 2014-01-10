@@ -2,6 +2,7 @@ install: true
 script: true
 after_success:
   - git tag v0.1.0
+  - git tag -l
 env:
   global:
     - GIT_COMMITTER_NAME=bluepapa32
