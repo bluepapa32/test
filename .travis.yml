@@ -1,9 +1,7 @@
 install: true
 script: true
 after_success:
-  - git tag v0.1.0 -m 'Release version 0.1.0'
-  - git tag -l
-  - git push -q $REPOSITORY v0.1.0
+  - git tag v0.1.0 -m 'Release version 0.1.0' && git push --tags -q $REPOSITORY
 env:
   global:
     - secure: "fmErV9oidV9kmJAzbeEiqzJBNNDeTAfVmnnxn9NLqsO6XuxAKap993SIQMLwZRpTIsJNkQCz3jrNnJuVvHsRB6blntRnsV92UHLkm0ZaS9TkZ72BVfDE8cv6KRR69x2AlYy/Jwog093udlgZX5pv/AMKEPNHAvrXDHJ0TY1GC7Y="
