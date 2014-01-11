@@ -3,7 +3,7 @@ script: true
 after_success:
   - git tag v0.1.0
   - git tag -l
-  - git push -q $REPOSITORY v0.1.0
+  - git push -q origin v0.1.0
 env:
   global:
     - secure: "QaAIJUvDVrtjIPn3nk+/snXzStOxBxF6BtqF7ywbKoan+9rhjvIndoelyLrzuXI/QYbvmlubuMxC3mHU4kCDjd8CDhHkBH4dPIP75dsO43DXlAUNIe9zjOkvZuuFXP0Lzzi8uDxbswfxXgLiBoKoY0sA1Gh3Og+Ht0aWGLi6NjY="
