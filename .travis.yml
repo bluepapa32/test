@@ -3,3 +3,6 @@ script: env
 after_success:
   - git tag v0.1.0
   - git tag -l
+env:
+  global:
+    - secure: "pNhM69q+ovHITY4fLGPZq1uyj7KrUFcus7ii7KhTeMi1GeTGcCHu6yuXXKmGbrps7+Kn6bHMRtl0v/q6M9bt/IghI/Ug1InlHoZnl8AYp4bzwW5cVVDP4b52/YAEHmFPxtWTpBf1BA1mPwnePMQIm9jRwp7BrU4bDX53+9fF4oI="
